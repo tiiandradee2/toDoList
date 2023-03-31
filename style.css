@@ -1,0 +1,66 @@
+/* Estilo da lista de tarefas */
+#task-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo dos itens da lista de tarefas */
+  #task-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilo do botão de exclusão de tarefas */
+  #task-list li button {
+    background-color: transparent;
+    color: #ff6347;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: auto;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  #task-list li button:hover {
+    color: #c0392b;
+  }
+  
+  /* Estilo do input de adicionar tarefas */
+  #add-task {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #add-task:focus {
+    outline: none;
+    border-bottom-color: #3498db;
+  }
+  
+  /* Estilo do botão de adicionar tarefas */
+  #add-task-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #add-task-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo para tarefa concluída */
+  #task-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
